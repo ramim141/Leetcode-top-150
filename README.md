@@ -5,6 +5,7 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 ## Table of Contents
 - [242. Valid Anagram](#242-valid-anagram)
 - [55. Jump Game](#55-jump-game)
+- [45. Jump Game II](#45-jump-game-ii)
 
 ---
 
@@ -21,6 +22,13 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 
 - **jump_game.py**: Solution implementation.
 - **solution_steps.md**: Step-by-step explanation of the approach.
+
+## 45. Jump Game II
+**Folder:** `45 Jump Game II/`
+
+- **DP_jump_game.py**: Dynamic programming approach.
+- **Optimal_jump_game.py**: Greedy/optimal approach.
+- **solution_steps.md**: Step-by-step explanation and complexity analysis.
 
 ---
 
