@@ -3,6 +3,7 @@
 This repository contains structured solutions to selected Leetcode Top 150 problems. Each problem folder includes multiple approaches in Python, along with step-by-step explanations in markdown format.
 
 ## Table of Contents
+- [13. Roman to Integer](#13-roman-to-integer)
 - [242. Valid Anagram](#242-valid-anagram)
 - [55. Jump Game](#55-jump-game)
 - [45. Jump Game II](#45-jump-game-ii)
@@ -29,6 +30,16 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - **DP_jump_game.py**: Dynamic programming approach.
 - **Optimal_jump_game.py**: Greedy/optimal approach.
 - **solution_steps.md**: Step-by-step explanation and complexity analysis.
+
+---
+
+## 13. Roman to Integer
+**Folder:** `13 Roman to Integer/`
+
+- **Approach_01.py**: Left-to-right traversal implementation (handles subtraction cases).
+- **Approach_02.py**: Right-to-left traversal / alternative implementation.
+- **Problem_link.txt**: Link to the LeetCode problem statement.
+- **Solution_steps.md**: Step-by-step explanation, examples, and complexity analysis.
 
 ---
 
