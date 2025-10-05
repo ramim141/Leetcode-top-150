@@ -1,3 +1,6 @@
+# Approach: Greedy Algorithm
+# Time Complexity: O(1) - Since the number of Roman numeral symbols is fixed
+# Space Complexity: O(1) - The output string length is bounded by a constant
 def intToRoman(num: int) -> str:
     # বড় থেকে ছোট ক্রমে মান এবং প্রতীক
     values = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]

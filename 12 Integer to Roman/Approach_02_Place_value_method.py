@@ -1,3 +1,6 @@
+# Approach: Place Value Method
+# Time Complexity: O(1) - Since the number of Roman numeral symbols is fixed
+# Space Complexity: O(1) - The output string length is bounded by a constant
 def intToRoman_place_value(num: int) -> str:
     ones = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
     tens = ["", "X", "XX", "XXX", "XL", "L", "LX", "LXX", "LXXX", "XC"]
