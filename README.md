@@ -3,6 +3,7 @@
 This repository contains structured solutions to selected Leetcode Top 150 problems. Each problem folder includes multiple approaches in Python, along with step-by-step explanations in markdown format.
 
 ## Table of Contents
+- [12. Integer to Roman](#12-integer-to-roman)
 - [13. Roman to Integer](#13-roman-to-integer)
 - [242. Valid Anagram](#242-valid-anagram)
 - [55. Jump Game](#55-jump-game)
@@ -42,6 +43,14 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - **Solution_steps.md**: Step-by-step explanation, examples, and complexity analysis.
 
 ---
+
+## 12. Integer to Roman
+**Folder:** `12 Integer to Roman/`
+
+- **Approach_01_Greedy.py**: Greedy value-symbol subtraction approach (recommended).
+- **Approach_02_Place_value_method.py**: Place-value/hardcoded arrays per digit.
+- **problem_link.txt**: Link to the LeetCode problem statement.
+- **solution_steps.md**: Step-by-step explanation, examples, and complexity analysis.
 
 ## Usage
 1. Browse to the folder of the desired problem.
