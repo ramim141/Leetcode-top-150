@@ -5,6 +5,10 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 ## Table of Contents
 - [12. Integer to Roman](#12-integer-to-roman)
 - [13. Roman to Integer](#13-roman-to-integer)
+- [26. Remove Duplicate from Sorted Array](#26-remove-dupplicate-from-sorted-array)
+- [27. Remove Element](#27-remove-element)
+- [80. Remove Duplicates from Sorted Array II](#80-remove-duplicates-from-sorted-array-ii)
+- [88. Merge Sorted Array](#88-merge-sorted-array)
 - [189. Rotate Array](#189-rotate-array)
 - [242. Valid Anagram](#242-valid-anagram)
 - [55. Jump Game](#55-jump-game)
@@ -63,6 +67,36 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - **Approach_03_reversal_Algorithm.py**: In-place reversal algorithm (O(N) time, O(1) space) — recommended.
 - **problem_link.txt**: Link to the LeetCode problem statement.
 - **solution_steps.md**: Explanation, code, and complexity analysis for three approaches.
+
+---
+
+## 26. Remove Dupplicate from Sorted Array
+**Folder:** `26 Remove Dupplicate from Sorted Array/`
+
+- **Approach_01_Brute_force.cpp**: Brute force approach.
+- **Approach_02_Two_pointer.cpp**: Two-pointer in-place solution (recommended).
+- **solution_steps.md**: Explanation and complexity analysis.
+
+## 27. Remove Element
+**Folder:** `27 Remove Element/`
+
+- **Approach_02_Two_pointer.py**: Two-pointer in-place removal solution.
+- **Approch_01_Slow_and_Fast.py**: Another two-pointer variant.
+- **solution_steps.md**: Explanation and edge-cases.
+
+## 80. Remove Duplicates from Sorted Array II
+**Folder:** `80 Remove Duplicates from Sorted Array II/`
+
+- **Approach_01_Using_Extra_array.cpp**: Extra-array based method.
+- **Approach_02_Two_Pointer.cpp**: Two-pointer in-place method.
+- **solution_steps.md**: Explanation and comparisons.
+
+## 88. Merge Sorted Array
+**Folder:** `88 Merge Sorted Array/`
+
+- **Approach_01_Merge_And_Sort.py**: Simple merge-then-sort approach.
+- **Approach_02_Two_pointer_from_The_end.py**: Two-pointer from end in-place merge (recommended).
+- **solution_steps.md**: Explanation and complexity notes.
 
 ## Usage
 1. Browse to the folder of the desired problem.
