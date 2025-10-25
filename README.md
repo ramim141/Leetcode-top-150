@@ -7,6 +7,7 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - [13. Roman to Integer](#13-roman-to-integer)
 - [26. Remove Duplicate from Sorted Array](#26-remove-dupplicate-from-sorted-array)
 - [27. Remove Element](#27-remove-element)
+- [42. Trapping Rain Water](#42-trapping-rain-water)
 - [80. Remove Duplicates from Sorted Array II](#80-remove-duplicates-from-sorted-array-ii)
 - [88. Merge Sorted Array](#88-merge-sorted-array)
 - [189. Rotate Array](#189-rotate-array)
@@ -83,6 +84,14 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - **Approach_02_Two_pointer.py**: Two-pointer in-place removal solution.
 - **Approch_01_Slow_and_Fast.py**: Another two-pointer variant.
 - **solution_steps.md**: Explanation and edge-cases.
+
+## 42. Trapping Rain Water
+**Folder:** `42 Trapping Rain Water/`
+
+- **Approach_1_Brute_Force.cpp**: Brute force scanning approach (O(n^2) time).
+- **Approach_2_Dynamic_Programming.cpp**: Precompute left/right max arrays (O(n) time, O(n) space).
+- **Approach_3_Two_Pointers.cpp**: Two-pointer optimized method (O(n) time, O(1) space) — recommended.
+- **solution.md**: Explanation, examples, and complexity analysis.
 
 ## 80. Remove Duplicates from Sorted Array II
 **Folder:** `80 Remove Duplicates from Sorted Array II/`
