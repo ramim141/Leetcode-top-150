@@ -5,6 +5,8 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 ## Table of Contents
 - [12. Integer to Roman](#12-integer-to-roman)
 - [13. Roman to Integer](#13-roman-to-integer)
+- [6. Zigzag Conversion](#6-zigzag-conversion)
+- [28. Find the index of the First Occurrence in a string](#28-find-the-index-of-the-first-occurrence-in-a-string)
 - [26. Remove Duplicate from Sorted Array](#26-remove-dupplicate-from-sorted-array)
 - [27. Remove Element](#27-remove-element)
 - [42. Trapping Rain Water](#42-trapping-rain-water)
@@ -47,6 +49,19 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - **Approach_02.py**: Right-to-left traversal / alternative implementation.
 - **Problem_link.txt**: Link to the LeetCode problem statement.
 - **Solution_steps.md**: Step-by-step explanation, examples, and complexity analysis.
+
+## 6. Zigzag Conversion
+**Folder:** `6 Zigzag Conversion/`
+
+- **Approach_01_Simulation_by_raw.cpp**: Simulation of writing in zigzag lines and reading row-by-row (straightforward implementation).
+- **solution.md**: Explanation, examples, and complexity analysis (O(n) time, O(n) space for naive row storage).
+
+## 28. Find the index of the First Occurrence in a string
+**Folder:** `28 Find the index of the First Occurrence in a string/`
+
+- **Approach_01_STL.cpp**: Use standard library find/search utilities (straightforward, good for prototyping).
+- **Approach_02_Sliding_window.cpp**: Rolling/sliding-window or KMP-like approach for better worst-case performance.
+- **solution.md**: Explanation, examples, and complexity analysis.
 
 ---
 
