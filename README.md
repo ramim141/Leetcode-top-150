@@ -5,6 +5,7 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 ## Table of Contents
 - [12. Integer to Roman](#12-integer-to-roman)
 - [13. Roman to Integer](#13-roman-to-integer)
+- [169. Majority Element](#169-majority-element)
 - [6. Zigzag Conversion](#6-zigzag-conversion)
 - [28. Find the index of the First Occurrence in a string](#28-find-the-index-of-the-first-occurrence-in-a-string)
 - [26. Remove Duplicate from Sorted Array](#26-remove-dupplicate-from-sorted-array)
@@ -49,6 +50,15 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - **Approach_02.py**: Right-to-left traversal / alternative implementation.
 - **Problem_link.txt**: Link to the LeetCode problem statement.
 - **Solution_steps.md**: Step-by-step explanation, examples, and complexity analysis.
+
+## 169. Majority Element
+**Folder:** `169 Majority Element/`
+
+- **Approach_01_Brute_force.cpp**: Brute-force counting (O(n^2) time) — not recommended.
+- **Approach_02_Hash_map.cpp**: Count frequencies with a hash map (O(n) time, O(n) space).
+- **Approach_03_Sorting.cpp**: Sort and take middle element (O(n log n) time).
+- **Approach_04_Boyer_Moore_Voring.cpp**: Boyer–Moore Voting Algorithm (O(n) time, O(1) space) — recommended.
+- **solution.md**: Explanation, proofs, and complexity analysis.
 
 ## 6. Zigzag Conversion
 **Folder:** `6 Zigzag Conversion/`
