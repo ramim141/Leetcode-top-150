@@ -6,6 +6,7 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - [12. Integer to Roman](#12-integer-to-roman)
 - [13. Roman to Integer](#13-roman-to-integer)
 - [169. Majority Element](#169-majority-element)
+- [392. Is Subsequence](#392-is-subsequence)
 - [6. Zigzag Conversion](#6-zigzag-conversion)
 - [28. Find the index of the First Occurrence in a string](#28-find-the-index-of-the-first-occurrence-in-a-string)
 - [26. Remove Duplicate from Sorted Array](#26-remove-dupplicate-from-sorted-array)
@@ -52,6 +53,20 @@ This repository contains structured solutions to selected Leetcode Top 150 probl
 - **Solution_steps.md**: Step-by-step explanation, examples, and complexity analysis.
 
 ## 169. Majority Element
+**Folder:** `169 Majority Element/`
+
+- **Approach_01_Brute_force.cpp**: Brute-force counting (O(n^2) time) — not recommended.
+- **Approach_02_Hash_map.cpp**: Count frequencies with a hash map (O(n) time, O(n) space).
+- **Approach_03_Sorting.cpp**: Sort and take middle element (O(n log n) time).
+- **Approach_04_Boyer_Moore_Voring.cpp**: Boyer–Moore Voting Algorithm (O(n) time, O(1) space) — recommended.
+- **solution.md**: Explanation, proofs, and complexity analysis.
+
+## 392. Is Subsequence
+**Folder:** `392 Is Subsequence/`
+
+- **Approach_01-Two_pointer.cpp**: Two-pointer approach comparing chars sequentially (O(n) time, O(1) space) — recommended.
+- **Approach_02_DP.cpp**: Dynamic programming solution for follow-up with multiple patterns (O(n*m) time, O(n*m) space).
+- **solution.md**: Explanation, examples, and complexity analysis for both approaches.
 **Folder:** `169 Majority Element/`
 
 - **Approach_01_Brute_force.cpp**: Brute-force counting (O(n^2) time) — not recommended.
